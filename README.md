@@ -1,7 +1,7 @@
 
 # LangGraph ReAct Agent – Gemini Edition
 
-This project is a customized ReAct agent built with [LangGraph](https://github.com/langchain-ai/langgraph) that uses:
+This project is a customized ReAct agent built with [LangGraph](https://github.com/langchain-ai/react-agent.git) that uses:
 
 - **Google Gemini** models via **Vertex AI**
 - **Tavily** for live web search
