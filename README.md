@@ -14,7 +14,7 @@ This project is a customized ReAct agent built with [LangGraph](https://github.c
 
 ---
 
-## 🚀 What It Does
+## What It Does
 
 The ReAct agent:
 
@@ -40,7 +40,7 @@ The ReAct agent:
 
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
 ### 1. Clone and Set Up Environment
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ---
 
-## ✅ Running the Agent
+## Running the Agent
 
 You can run the agent via a Python script like:
 
@@ -94,7 +94,7 @@ Assistant: Got it.
 
 ---
 
-## 🧠 Features You Can Customize
+## Features You Can Customize
 
 | Feature           | How to Customize                                    |
 |------------------|-----------------------------------------------------|
@@ -106,7 +106,7 @@ Assistant: Got it.
 
 ---
 
-## ✨ Studio Support
+## Studio Support
 
 This project supports **LangGraph Studio** for:
 
