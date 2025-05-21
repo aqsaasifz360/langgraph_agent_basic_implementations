@@ -10,7 +10,7 @@ This project is a customized ReAct agent built with [LangGraph](https://github.c
 - Extensible tool-calling architecture
 - Built to run in **LangGraph Studio** with debugging and time travel features
 
-![Graph view in LangGraph studio UI](./static/studio_ui_output.png)
+![Graph view in LangGraph studio UI](./static/studio_ui_output.JPG)
 
 ---
 
