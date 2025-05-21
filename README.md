@@ -10,7 +10,7 @@ This project is a customized ReAct agent built with [LangGraph](https://github.c
 - Extensible tool-calling architecture
 - Built to run in **LangGraph Studio** with debugging and time travel features
 
-![Graph view in LangGraph studio UI](./static/studio_ui.png)
+![Graph view in LangGraph studio UI](./static/studio_ui_output.png)
 
 ---
 
@@ -21,7 +21,7 @@ The ReAct agent:
 1. Accepts a user query
 2. Reasons over context and prior memory
 3. Invokes external tools (e.g., Tavily Search) if needed
-4. Triggers human-in-the-loop review if flagged
+4. Triggers human-in-the-loop review. Human can edit the responses.
 5. Stores all interactions in memory
 6. Returns a structured response
 
@@ -87,8 +87,7 @@ python main.py
 User: What's the capital of France?
 Assistant: The capital of France is Paris.
 
-User: HUMAN_REVIEW this
-[HUMAN REVIEW TRIGGERED]
+User: Can edit the responses
 Your input or correction: Actually, it's Lyon.
 Assistant: Got it.
 ```
@@ -114,7 +113,6 @@ This project supports **LangGraph Studio** for:
 - Graph visualization
 - State introspection
 - Time travel (re-run from any node)
-- Hot reloading
 
 To launch studio:
 
@@ -124,7 +122,7 @@ langgraph studio
 
 ---
 
-## 📁 File Structure
+## Key files used
 
 ```bash
 src/react_agent/
@@ -140,15 +138,3 @@ src/react_agent/
 ```
 
 ---
-
-## ✅ Credits
-
-Based on the official [LangGraph ReAct template](https://github.com/langchain-ai/react-agent), customized for Gemini and production-ready extension.
-
----
-
-## 📌 Notes
-
-- Requires a valid Google Cloud service account.
-- Tavily API is optional, but recommended for live search.
-- Human-in-the-loop works in CLI; can be upgraded to a web interface.
